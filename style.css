@@ -69,3 +69,30 @@ body {
     font-size: 12px;
     color: var(--cinza-claro);
 }
+
+.secundario {
+    align-items: center;
+    margin: 0 10em;
+}
+
+.container__descricao {
+    padding: 2em;
+}
+
+.descricao__titulo {
+    font-size: 48px;
+    font-weight: 700;
+    color: var(--vermelho-destaque);
+    margin-bottom: 0.5em;
+}
+
+.descricao__texto {
+    color: var(--cinza-escuro);
+    font-size: 20px;
+    margin-bottom: 1em;
+}
+
+.secundario__botao {
+    display: inline-block;
+    margin-top: 0.5em;
+}
