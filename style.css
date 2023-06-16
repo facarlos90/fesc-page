@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+  :root {
+    --bege-principal: #E5E5E5;
+    --cinza-claro: #444444 ;
+    --cinza-escuro: #171717;
+    --vermelho-destaque: #DA0037;
+
+    --fonte-principal: 'Inter', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--bege-principal);
+}
