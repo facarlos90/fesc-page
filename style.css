@@ -16,4 +16,56 @@
 
 body {
     background-color: var(--bege-principal);
+    color: var(--cinza-escuro);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.principal {
+    background-image: url(./assets/capa-cabecalho.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container__caixa {
+    margin: 0 4em;
+}
+
+.container__titulo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.container__imagem {
+    margin: 1em 0 1em 0;
+}
+
+.container__botao {
+    background-color: var(--vermelho-destaque);
+    border-radius: 8px;
+    padding: 1em;
+    color: var(--bege-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--cinza-escuro);
+    color: var(--cinza-claro);
+}
+
+.container__aviso {
+    font-size: 12px;
+    color: var(--cinza-claro);
 }
