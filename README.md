@@ -7,7 +7,7 @@ Trata-se de uma Landing Page para ajudar a empresa de Construção Civil FESC En
 ## Detalhes do projeto
 
 <p align="center">
-<img src="http://img.shields.io/static/v1?label=STATUS&message=EMCONSTRUÇÃO&color=GREEN&style=for-the-badge"/>
+<img src="http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge"/>
 </p>
 
 Projeto em desenvolvimento para colocar em prática e fixar o conhecimento adquirido no Curso "HTML e CSS: praticando HTML/CSS" da Alura. 
