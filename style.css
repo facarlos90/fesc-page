@@ -125,3 +125,38 @@ body {
     color: var(--cinza-claro);
 }
 
+.rodape {
+    text-align: center;
+    margin: 5em 3em;
+}
+
+.rodape__logo {
+    margin-bottom: 2em;
+}
+
+.rodape__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 1em 0;
+}
+
+.lista__link a {
+    text-decoration: none;
+    color: var(--cinza-escuro);
+    margin-left: 1em;
+}
+
+.rodape__texto {
+    margin: 1em 0;
+    font-size: 14px;
+    color: var(--cinza-claro);
+}
+
+.lista__link a:hover {
+    color: var(--vermelho-destaque);
+}
+
+.lista__link a:active {
+    color: purple;
+}
