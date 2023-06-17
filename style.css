@@ -101,3 +101,27 @@ body {
 .secundario__imagem {
     padding: 0 0 0 2em;
 }
+
+.galeria {
+    text-align: center;
+}
+
+.galeria__titulo {
+    font-size: 48px;
+    color: var(--cinza-escuro);
+}
+
+.galeria__lista {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 5em 0;
+}
+
+.lista__item {
+    font-size: 32px;
+    margin: 5em 3em;
+    text-decoration: none;
+    color: var(--cinza-claro);
+}
+
