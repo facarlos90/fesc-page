@@ -161,6 +161,12 @@ body {
     color: purple;
 }
 
+.container__botao:hover {
+    background-color: var(--cinza-escuro);
+    color: var(--bege-principal);
+}
+
+
 @media screen and (max-width: 768px) {
     .container {
         display: inline-block;
