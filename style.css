@@ -87,13 +87,14 @@ body {
 }
 
 .descricao__texto {
-    color: var(--cinza-escuro);
+    color: var(--cinza-claro);
     font-size: 20px;
     margin-bottom: 1em;
 }
 
 .secundario__botao {
     display: inline-block;
+    background-color: var(--cinza-escuro);
     margin-top: 0.5em;
 }
 
