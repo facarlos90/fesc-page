@@ -160,3 +160,81 @@ body {
 .lista__link a:active {
     color: purple;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        display: inline-block;
+        background-image: none;
+    }
+
+    .principal {
+        margin-bottom: 64px;
+    }
+
+    .container__imagem {
+        width: 50vw;
+    }
+
+    .container__descricao {
+        margin: 16px 0;
+    }
+
+    .container__caixa {
+        margin: 2em 2em;
+    }
+
+    .descricao__titulo {
+        font-size: 24px;
+    }
+
+    .descricao__texto {
+        font-size: 16px;
+        padding: 0 2em;
+    }
+
+    .secundario {
+        margin: 0;
+        text-align: center;
+    }
+
+    .container__descricao {
+        padding: 0;
+    }
+
+    .secundario__imagem {
+        width: 50vw;
+        padding: 0;
+    }
+
+    .galeria {
+        margin: 0;
+    }
+
+    .galeria__titulo {
+        font-size: 32px;
+        padding: 0 1em;
+    }
+
+    .galeria__lista {
+        flex-direction: column;
+        gap: 64px;
+    }
+
+    .lista__icone {
+        width: 50%;
+    }
+
+    .rodape__logo{
+        width: 70vw;
+    }
+
+    .rodape__lista {
+        display: inline-block;
+        margin-bottom: 32px;
+    }
+
+    .lista__link {
+        padding: 0.5em 0;
+    }
+    
+}
