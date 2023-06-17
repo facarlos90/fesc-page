@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
   :root {
-    --bege-principal: #E5E5E5;
+    --bege-principal: #ededed;
     --cinza-claro: #444444 ;
     --cinza-escuro: #171717;
     --vermelho-destaque: #DA0037;
@@ -80,7 +80,7 @@ body {
 }
 
 .descricao__titulo {
-    font-size: 48px;
+    font-size: 40px;
     font-weight: 700;
     color: var(--vermelho-destaque);
     margin-bottom: 0.5em;
@@ -95,4 +95,8 @@ body {
 .secundario__botao {
     display: inline-block;
     margin-top: 0.5em;
+}
+
+.secundario__imagem {
+    padding: 0 0 0 2em;
 }
